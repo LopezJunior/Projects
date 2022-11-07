@@ -1,0 +1,63 @@
+body {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  background-color: rgb(0, 0, 34);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(241, 101, 36);
+}
+
+img {
+  height: 50px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.inputType {
+  margin-top: 10px;
+  justify-content: space-between;
+  margin-left: 30%;
+  width: 45%;
+  display: flex;
+  padding: 10px;
+  font-size: 13px;
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+
+#arq input {
+  color: white;
+}
+
+.inputType input {
+  color: black;
+  /* align-items: center; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+
+.dif {
+  background-color: rgb(0, 0, 47);
+  /* padding: 10px; */
+}
+
+#type {
+  color: green;
+}
+
+#resultType {
+  color: rgb(188, 188, 0);
+}
+
+#tag {
+  color: rgb(255, 81, 133);
+}
